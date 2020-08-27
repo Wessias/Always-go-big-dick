@@ -10,3 +10,4 @@ D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\bin\Debug\netcoreapp3.1\Tasks.p
 D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.dll
 D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.pdb
 D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.genruntimeconfig.cache
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.csprojAssemblyReference.cache
