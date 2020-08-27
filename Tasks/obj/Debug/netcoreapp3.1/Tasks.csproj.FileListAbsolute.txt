@@ -1,0 +1,12 @@
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfoInputs.cache
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.AssemblyInfo.cs
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.csproj.CoreCompileInputs.cache
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\bin\Debug\netcoreapp3.1\Tasks.exe
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\bin\Debug\netcoreapp3.1\Tasks.deps.json
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\bin\Debug\netcoreapp3.1\Tasks.runtimeconfig.json
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\bin\Debug\netcoreapp3.1\Tasks.runtimeconfig.dev.json
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\bin\Debug\netcoreapp3.1\Tasks.dll
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\bin\Debug\netcoreapp3.1\Tasks.pdb
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.dll
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.pdb
+D:\Program (x86)\GitHub\Always-go-big-dick\Tasks\obj\Debug\netcoreapp3.1\Tasks.genruntimeconfig.cache
