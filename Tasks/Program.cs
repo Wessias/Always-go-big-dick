@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace Tasks
 {
@@ -7,6 +9,8 @@ namespace Tasks
         static void Main(string[] args)
         {
             
+
+
             Console.WriteLine("Enter your name hemmis");
             var name = Console.ReadLine();
             int lengthOfName = name.Length;
@@ -24,6 +28,9 @@ namespace Tasks
                 Console.WriteLine("Dayum  thats a short name bet its as short as your DIIIIIIICCCCCCKKKKK HAHAHAHAHAA GOOOOOTEEEEM");
             }
 
+
+
+
             Console.WriteLine("Enter your age ");
             var age = Convert.ToInt32(Console.ReadLine());
                 if(age >= 18)
@@ -37,6 +44,8 @@ namespace Tasks
 
             Console.WriteLine("Are you alive or dead? Write 1 for alive, 7 for being dead and 69 for being awesome.");
             var aliveOrDead = Convert.ToInt32(Console.ReadLine());
+
+
 
             switch (aliveOrDead)
             {
@@ -56,6 +65,26 @@ namespace Tasks
                     Console.WriteLine("Stop being such a rebel puss boi");
                     break;
             }
+
+            var nameAndAge = new List<Tuple<string, int>>();
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("Write anumber");
+                int ages = Convert.ToInt32(Console.ReadLine());
+
+                Console.WriteLine("Write a name");
+                var names = Console.ReadLine();
+
+                nameAndAge.Add(new Tuple<string, int>(names, ages));
+            }
+
+            foreach (var index in nameAndAge)
+            {
+                Console.WriteLine(index);
+            }
+
+
+
 
             int favoriteNum = 0;
             while (favoriteNum != 7) {
