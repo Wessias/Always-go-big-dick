@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Hellaworld\\Hellaworld\\Hellaworld.csproj",
-      "projectName": "Hellaworld",
-      "projectPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Hellaworld\\Hellaworld\\Hellaworld.csproj",
+      "projectUniqueName": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Metoder1\\Metoder1.csproj",
+      "projectName": "Metoder1",
+      "projectPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Metoder1\\Metoder1.csproj",
       "packagesPath": "C:\\Users\\Regnd\\.nuget\\packages\\",
-      "outputPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Hellaworld\\Hellaworld\\obj\\",
+      "outputPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Metoder1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Regnd\\AppData\\Roaming\\NuGet\\NuGet.Config",

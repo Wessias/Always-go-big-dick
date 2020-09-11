@@ -1,0 +1,13 @@
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\bin\Debug\netcoreapp3.1\Metoder1.exe
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\bin\Debug\netcoreapp3.1\Metoder1.deps.json
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\bin\Debug\netcoreapp3.1\Metoder1.runtimeconfig.json
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\bin\Debug\netcoreapp3.1\Metoder1.runtimeconfig.dev.json
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\bin\Debug\netcoreapp3.1\Metoder1.dll
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\bin\Debug\netcoreapp3.1\Metoder1.pdb
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\obj\Debug\netcoreapp3.1\Metoder1.csprojAssemblyReference.cache
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\obj\Debug\netcoreapp3.1\Metoder1.AssemblyInfoInputs.cache
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\obj\Debug\netcoreapp3.1\Metoder1.AssemblyInfo.cs
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\obj\Debug\netcoreapp3.1\Metoder1.csproj.CoreCompileInputs.cache
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\obj\Debug\netcoreapp3.1\Metoder1.dll
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\obj\Debug\netcoreapp3.1\Metoder1.pdb
+D:\Program (x86)\GitHub\Always-go-big-dick\Metoder1\obj\Debug\netcoreapp3.1\Metoder1.genruntimeconfig.cache
