@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Metoder1\\Metoder1.csproj": {}
+    "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\OOP\\OOP.csproj": {}
   },
   "projects": {
-    "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Metoder1\\Metoder1.csproj": {
+    "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\OOP\\OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Metoder1\\Metoder1.csproj",
-        "projectName": "Metoder1",
-        "projectPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Metoder1\\Metoder1.csproj",
+        "projectUniqueName": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\OOP\\OOP.csproj",
+        "projectName": "OOP",
+        "projectPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\OOP\\OOP.csproj",
         "packagesPath": "C:\\Users\\Regnd\\.nuget\\packages\\",
-        "outputPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Metoder1\\obj\\",
+        "outputPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\OOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Regnd\\AppData\\Roaming\\NuGet\\NuGet.Config",
