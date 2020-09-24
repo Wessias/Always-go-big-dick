@@ -22,7 +22,7 @@ namespace OOP
          public int Menu()
         {
             Console.WriteLine("What do you want to buy my dude?????" +
-                "\n (1) Mythic Carry \n (2) 3k rating carry \n (3) ERP in Goldshire \n (4) I'M DONE WITH THIS SHIT GET ME OUT OF THIS STOREEEEEEEE!!!!!");
+                "\n (1) Mythic Carry \n (2) 3k rating carry \n (3) ERP in Goldshire \n (4) What in the fuck have I put in my cart? \n (5) I'M DONE WITH THIS SHIT GET ME OUT OF THIS STOREEEEEEEE!!!!!");
             int product = Convert.ToInt32(Console.ReadLine());
             return product;
         }

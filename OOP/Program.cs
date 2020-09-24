@@ -42,14 +42,23 @@ namespace OOP
                         niklas.sc_cart.Add(goldshireERP);
                         break;
 
-                        case 4:
-                            Console.WriteLine("Hope I'll se ya again sick cunt");
-                            shoping = false;
-                            break;
+                    case 4:
+                        Console.WriteLine("This is the stuff you've put in ur cart sad cunt:");
+                        Console.WriteLine("\n You wanted this shit right?");
+                        foreach (Product product in niklas.sc_cart)
+                        {
+                            Console.WriteLine(product.sc_product);
+                        }
+                        break;
+
+                    case 5:
+                       Console.WriteLine("Hope I'll se ya again sick cunt");
+                       shoping = false;
+                       break;
 
                     default:
-                        Console.WriteLine("\n STOP BEING A SHIT CUNT AND BECOME A SICK CUNT!");
-                        break;
+                       Console.WriteLine("\n STOP BEING A SHIT CUNT AND BECOME A SICK CUNT!");
+                       break;
 
                 }
             }
