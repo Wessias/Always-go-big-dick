@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Regnd\\.nuget\\packages\\": {}
+    "C:\\Users\\viggo.wessner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\OOP\\OOP.csproj",
+      "projectUniqueName": "C:\\GitHub\\Always-go-big-dick\\OOP\\OOP.csproj",
       "projectName": "OOP",
-      "projectPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\OOP\\OOP.csproj",
-      "packagesPath": "C:\\Users\\Regnd\\.nuget\\packages\\",
-      "outputPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\OOP\\obj\\",
+      "projectPath": "C:\\GitHub\\Always-go-big-dick\\OOP\\OOP.csproj",
+      "packagesPath": "C:\\Users\\viggo.wessner\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\Always-go-big-dick\\OOP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Regnd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\viggo.wessner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

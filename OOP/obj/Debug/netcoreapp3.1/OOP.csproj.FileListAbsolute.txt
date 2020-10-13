@@ -11,3 +11,16 @@ D:\Program (x86)\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.cspro
 D:\Program (x86)\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.dll
 D:\Program (x86)\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.pdb
 D:\Program (x86)\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.genruntimeconfig.cache
+C:\GitHub\Always-go-big-dick\OOP\bin\Debug\netcoreapp3.1\OOP.exe
+C:\GitHub\Always-go-big-dick\OOP\bin\Debug\netcoreapp3.1\OOP.deps.json
+C:\GitHub\Always-go-big-dick\OOP\bin\Debug\netcoreapp3.1\OOP.runtimeconfig.json
+C:\GitHub\Always-go-big-dick\OOP\bin\Debug\netcoreapp3.1\OOP.runtimeconfig.dev.json
+C:\GitHub\Always-go-big-dick\OOP\bin\Debug\netcoreapp3.1\OOP.dll
+C:\GitHub\Always-go-big-dick\OOP\bin\Debug\netcoreapp3.1\OOP.pdb
+C:\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.csprojAssemblyReference.cache
+C:\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.AssemblyInfoInputs.cache
+C:\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.AssemblyInfo.cs
+C:\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.csproj.CoreCompileInputs.cache
+C:\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.dll
+C:\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.pdb
+C:\GitHub\Always-go-big-dick\OOP\obj\Debug\netcoreapp3.1\OOP.genruntimeconfig.cache
