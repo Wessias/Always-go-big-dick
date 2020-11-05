@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\Calculator.csproj": {}
+    "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\Calculator.csproj": {
+    "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\Calculator.csproj",
-        "packagesPath": "C:\\Users\\viggo.wessner\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\obj\\",
+        "projectPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\Calculator.csproj",
+        "packagesPath": "C:\\Users\\Regnd\\.nuget\\packages\\",
+        "outputPath": "D:\\Program (x86)\\GitHub\\Always-go-big-dick\\Calculator\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\viggo.wessner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Regnd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

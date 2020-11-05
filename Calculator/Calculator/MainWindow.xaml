@@ -5,30 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="400">
-    <Grid Height="431" VerticalAlignment="Top">
-        <Button Grid.Row="1" FontSize="40px">1</Button>
-        <Button Grid.Row="2" FontSize="40px">4</Button>
-        <Button Grid.Row="3" FontSize="40px">7</Button>
-        <Button Grid.Row="4" FontSize="40px">.</Button>
+        Title="MainWindow" Height="475" Width="400" Background="#A491D3">
+    
+	
+	<Grid Height="430" VerticalAlignment="Top" Margin="10 10 ">
+		<Button  Click = "OnClick" Grid.Column="0" Grid.Row="1" FontSize="25px" Background="#818AA3" Margin="3 3">1</Button>
+		<Button  Click = "OnClick" Grid.Column="0" Grid.Row="2" FontSize="25px" Background="#818AA3" Margin="3 3">4</Button>
+		<Button  Click = "OnClick" Grid.Column="0" Grid.Row="3" FontSize="25px" Background="#818AA3" Margin="3 3">7</Button>
+		<Button  Click = "OnClick" Grid.Column="0" Grid.Row="4" FontSize="25px" Background="#818AA3" Margin="3 3">.</Button>
+		<Button  Click = "OnClick" Grid.Column="2" Grid.Row="3" FontSize="25px" Background="#818AA3" Margin="3 3">9</Button>
+		<Button  Click = "OnClick" Grid.Column="2" Grid.Row="4" FontSize="25px" Background="#818AA3" Margin="3 3">e</Button>
+		<Button  Click = "OnClick" Grid.Column="1" Grid.Row="1" FontSize="25px" Background="#818AA3" Margin="3 3">2</Button>
+		<Button  Click = "OnClick" Grid.Column="1" Grid.Row="2" FontSize="25px" Background="#818AA3" Margin="3 3">6</Button>
+		<Button  Click = "OnClick" Grid.Column="1" Grid.Row="3" FontSize="25px" Background="#818AA3" Margin="3 3">8</Button>
+		<Button  Click = "OnClick" Grid.Column="1" Grid.Row="4" FontSize="25px" Background="#818AA3" Margin="3 3">0</Button>
+		<Button  Click = "OnClick" Grid.Column="2" Grid.Row="2" FontSize="25px" Background="#818AA3" Margin="3 3">7</Button>
+		<Button  Click = "OnClick" Grid.Column="2" Grid.Row="1" FontSize="25px" Background="#818AA3" Margin="3 3">3</Button>
+		<Button  Click = "OnClick" Grid.Column="3" Grid.Row="1" FontSize="25px" Background="#818AA3" Margin="3 3">Sqrt</Button>
+		<Button  Click = "OnClick" Grid.Column="3" Grid.Row="2" FontSize="25px" Background="#818AA3" Margin="3 3">^</Button>
+		<Button  Click = "OnClick" Grid.Column="3" Grid.Row="3" FontSize="25px" Background="#818AA3" Margin="3 3">=</Button>
+		<Button  Click = "OnClick" Grid.Column="3" Grid.Row="4" FontSize="25px" Background="#818AA3" Margin="3 3">π</Button>
+		<Button  Click = "OnClick" Grid.Column="3" Grid.Row="5" FontSize="25px" Background="#818AA3" Margin="3 3">Exe</Button>
+		<Button  Click = "OnClick" Grid.Column="0" Grid.Row="5" FontSize="25px" Background="#818AA3" Margin="3 3">Sin</Button>
+		<Button  Click = "OnClick" Grid.Column="1" Grid.Row="5" FontSize="25px" Background="#818AA3" Margin="3 3">Cos</Button>
+		<Button  Click = "OnClick" Grid.Column="2" Grid.Row="5" FontSize="25px" Background="#818AA3" Margin="3 3">Tan</Button>
+		<Button  Click = "OnClick" Grid.Column="4" Grid.Row="5" FontSize="25px" Background="#818AA3" Margin="3 3">Clear</Button>
+		<Button  Click = "OnClick" Grid.Column="4" Grid.Row="4" FontSize="25px" Background="#818AA3" Margin="3 3">-</Button>
+		<Button  Click = "OnClick" Grid.Column="4" Grid.Row="3" FontSize="25px" Background="#818AA3" Margin="3 3">+</Button>
+		<Button  Click = "OnClick" Grid.Column="4" Grid.Row="2" FontSize="25px" Background="#818AA3" Margin="3 3">/</Button>
+		<Button  Click = "OnClick" Grid.Column="4" Grid.Row="1" FontSize="25px" Background="#818AA3" Margin="3 3">*</Button>
 
-        <Button Grid.Column="1" Grid.Row="1" FontSize="40px">2</Button>
-        <Button Grid.Column="1" Grid.Row="2" FontSize="40px">6</Button>
-        <Button Grid.Column="1" Grid.Row="3" FontSize="40px">8</Button>
-        <Button Grid.Column="1" Grid.Row="4" FontSize="40px">0</Button>
-
-        <Button Grid.Column="2" Grid.Row="1" FontSize="40px">3</Button>
-        <Button Grid.Column="2" Grid.Row="2" FontSize="40px">7</Button>
-        <Button Grid.Column="2" Grid.Row="3" FontSize="40px">9</Button>
-        <Button Grid.Column="2" Grid.Row="4" FontSize="40px">#</Button>
-
-        <TextBlock Grid.ColumnSpan="3" FontSize="40px"></TextBlock>
+        <TextBlock x:Name="textField" Text="" Grid.ColumnSpan="5" FontSize="30px" Background="#C5DCA0" Margin="1 5"></TextBlock>
 
 
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
-            <RowDefinition>
-            </RowDefinition>
+            <RowDefinition></RowDefinition>
+			<RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
@@ -37,6 +50,8 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
+			<ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
     </Grid>
