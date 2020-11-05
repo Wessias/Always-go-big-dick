@@ -24,30 +24,27 @@ namespace OOP
                     
                     case 1:
                         Console.WriteLine("\nFUCKING CASUAL STOP BEING A SHIT CUNT AND DO IT YOURSELF LIKE A REAL HARDCORE PLAYER. \n You can still get it in ur cart tho");
-                        Product mythicCarry = new Product();
-                        mythicCarry.sc_product = "Mythic Carry";
+                        var mythicCarry = new MythicCarry();
                         niklas.sc_cart.Add(mythicCarry);
                         break;
 
                     case 2:
                         Console.WriteLine("\nYOU WANT 3K RATING HUH??? FAWKIN SHIT CUNT DO IT YOURSELF IF U WANNA BE A SICK CUNT. \n Pay me and I'LL STILL DO IT THOUGH.");
-                        Product ratingBoost = new Product();
-                        ratingBoost.sc_product = "Boost to 3k rating";
+                        var ratingBoost = new BoostTo3k();
                         niklas.sc_cart.Add(ratingBoost);
                         break;
 
                     case 3:
                         Console.WriteLine("\nYOU INTO THAT SICK CUNT SHIT AYYOOOOOO I SEE U HOLMES. I'LL GIVE U A DISCOUNT FOR THIS BIATCH.");
-                        Product goldshireERP = new Product();
-                        goldshireERP.sc_product = "Personal ERP session in Goldshire";
+                        var goldshireERP = new ERPinGoldshire();
                         niklas.sc_cart.Add(goldshireERP);
                         break;
 
                     case 4:
                         Console.WriteLine("\nThis is the stuff you've put in ur cart sad cunt:");
-                        foreach (Product product in niklas.sc_cart)
+                        foreach (var product in niklas.sc_cart)
                         {
-                            Console.WriteLine(product.sc_product);
+                            product.ProductName();
                         }
                         break;
 
@@ -64,9 +61,9 @@ namespace OOP
             }
 
             Console.WriteLine("\nYou wanted this shit right?");
-            foreach(Product product in niklas.sc_cart)
+            foreach(var product in niklas.sc_cart)
             {
-                Console.WriteLine(product.sc_product);
+                product.ProductName();
             }
 
 
