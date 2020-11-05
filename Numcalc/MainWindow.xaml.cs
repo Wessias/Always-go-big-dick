@@ -25,26 +25,55 @@ namespace Numcalc
             InitializeComponent();
         }
 
-        private void OnClick(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Model model = new Model();
+
             if (sender is Button button)
             {
-                switch (button.Content) { 
-                 case "0":
-                 case "1":
-                 case "2":
-                 case "3":
-                 case "4":
-                 case "5":
-                 case "6":
-                 case "7":
-                 case "8":
-                 case "9":
+                switch (button.Content) {
+                    case ".":
+                    case "0":
+                    case "1":
+                    case "2":
+                    case "3":
+                    case "4":
+                    case "5":
+                    case "6":
+                    case "7":
+                    case "8":
+                    case "9":
+                    case "π":
+                    case "+":
+                    case "-":
+                    case "=":
+                    case "/":
+                    case "*":
+                    case "Sqrt":
+                    case "^":
+                    case "Tan":
+                    case "Cos":
+                    case "Sin":
                         textField.Text += button.Content;
                         break;
-                 default:
-                    break;
+                    case "Del":
+                        textField.Text = textField.Text.Remove(textField.Text.Length - 1);
+                        break;
+                    case "Clear":
+                        textField.Text = "";
+                        break;
+                    case "Exe":
+
+
+
+                        break;
+                    default:
+                        break;
                 }
+            }
+            else
+            {
+                textField.Text = "You're not clicking my buttons dude";
             }
         }
     }

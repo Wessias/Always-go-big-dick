@@ -1,5 +1,4 @@
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numcalc.csprojAssemblyReference.cache
-D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\App.g.cs
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numcalc_MarkupCompile.cache
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numcalc_MarkupCompile.lref
@@ -9,7 +8,6 @@ D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\bin\Debug\netcoreapp3.1\Numca
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\bin\Debug\netcoreapp3.1\Numcalc.runtimeconfig.dev.json
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\bin\Debug\netcoreapp3.1\Numcalc.dll
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\bin\Debug\netcoreapp3.1\Numcalc.pdb
-D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\MainWindow.baml
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numcalc.g.resources
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numcalc.AssemblyInfoInputs.cache
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numcalc.AssemblyInfo.cs
@@ -17,3 +15,5 @@ D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numca
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numcalc.dll
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numcalc.pdb
 D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\Numcalc.genruntimeconfig.cache
+D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Program (x86)\GitHub\Always-go-big-dick\Numcalc\obj\Debug\netcoreapp3.1\MainWindow.baml
