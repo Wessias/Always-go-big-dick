@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Strategy_Pattern
 {
+    //Action Strategy
     public interface IActionInterface
     {
         string DoAction();

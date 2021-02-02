@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Strategy_Pattern
 {
+    //Pattern Jump
     class Jump : IActionInterface
     {
         public string DoAction()
         {
-            var action = "Jumping";
-            return action;
+            return "Jumping";
         }
     }
 }

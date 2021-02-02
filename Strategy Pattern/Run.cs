@@ -4,12 +4,12 @@ using System.Text;
 
 namespace Strategy_Pattern
 {
+    //Pattern Run
     class Run : IActionInterface
     {
         public string DoAction()
         {
-            var action = "Running";
-            return action;
+            return "Running";
         }
     }
 }

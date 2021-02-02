@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Strategy_Pattern
 {
+    //Which pattern to use in strategy
     class ActionClient
     {
         private IActionInterface actionInterface;
