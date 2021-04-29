@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "WZxGacQkTsSQS2fU9nscTklm2I9b5EgDw6CS4iWcNyIAvoLrx/L7nx0Evt2DgYmLJ4vqjFBYnaKCnBB/qeIosw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\viggo.wessner\\source\\repos\\CHESSTESTINGBABY\\CHESSTESTINGBABY\\CHESSTESTINGBABY.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\viggo.wessner\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MvvmLightLibs 5.4.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "MvvmLightLibs",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
