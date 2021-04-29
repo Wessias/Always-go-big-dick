@@ -9,7 +9,7 @@
 
     <Window.Resources>
         <DataTemplate DataType="{x:Type local:ChessPiece}">
-            <Image Source="{Binding ImageSource}"/>
+            <Image Source="{Binding ImageSource}" MouseLeftButtonDown="Button_Click" />
         </DataTemplate>
     </Window.Resources>
 
