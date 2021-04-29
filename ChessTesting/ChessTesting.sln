@@ -3,7 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessTesting", "ChessTesting.csproj", "{9B0FB7C5-EAB2-4FFA-998C-3A883F56FAE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessTesting", "ChessTesting.csproj", "{9B0FB7C5-EAB2-4FFA-998C-3A883F56FAE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A1CC29B-448F-4905-A116-17BC77FAE4B4}"
+	ProjectSection(SolutionItems) = preProject
+		BlackBishop.png = BlackBishop.png
+		BlackKing.png = BlackKing.png
+		BlackKnight.png = BlackKnight.png
+		BlackPawn.png = BlackPawn.png
+		BlackQueen.png = BlackQueen.png
+		BlackRook.png = BlackRook.png
+		WhiteBishop.png = WhiteBishop.png
+		WhiteKing.png = WhiteKing.png
+		WhiteKnight.png = WhiteKnight.png
+		WhitePawn.png = WhitePawn.png
+		WhiteQueen.png = WhiteQueen.png
+		WhiteRook.png = WhiteRook.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
