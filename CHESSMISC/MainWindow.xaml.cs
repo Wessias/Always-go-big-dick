@@ -33,6 +33,12 @@ namespace CHESSMISC
             InitializeComponent();
             DataContext = Pieces;
             NewGame();
+            Pieces.Add(new ChessPiece() { Row = 4, Column = 4, Type = ChessPieceTypes.Tower, IsBlack = true });
+        }
+
+        public void OnClick()
+        {
+            Pieces.Add(new ChessPiece() { Row = 3, Column = 4, Type = ChessPieceTypes.King, IsBlack = false });
         }
 
         private void NewGame()
@@ -75,5 +81,10 @@ namespace CHESSMISC
 
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+             Pieces.Add(new ChessPiece() { Row = 3, Column = 4, Type = ChessPieceTypes.King, IsBlack = false });
+
+        }
     }
 }
