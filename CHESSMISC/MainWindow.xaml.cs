@@ -34,6 +34,7 @@ namespace CHESSMISC
             DataContext = Pieces;
             NewGame();
             Pieces.Add(new ChessPiece() { Row = 4, Column = 4, Type = ChessPieceTypes.Tower, IsBlack = true });
+            Pieces.Where((x => x.Row == 2));
         }
 
         public void OnClick()
@@ -85,6 +86,19 @@ namespace CHESSMISC
         {
              Pieces.Add(new ChessPiece() { Row = 3, Column = 4, Type = ChessPieceTypes.King, IsBlack = false });
 
+        }
+
+
+
+        public void FindPiece(int row, int col)
+        {
+            for (int i = 0; i < Pieces.Count; i++)
+            {
+                if (row == Pieces.ElementAt(i).Row && col == Pieces.ElementAt(i).Column)
+                {
+                    //do something
+                }
+            }
         }
     }
 }
