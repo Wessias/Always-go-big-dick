@@ -12,8 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Linq;
-using System.Windows;
 using System.ComponentModel;
 using System.Collections.ObjectModel;
 
@@ -33,11 +31,13 @@ namespace CHESSMISC
             InitializeComponent();
             DataContext = Pieces;
             NewGame();
-            Pieces.Add(new ChessPiece() { Row = 4, Column = 4, Type = ChessPieceTypes.Tower, IsBlack = true });
-            Pieces.Where((x => x.Row == 2));
+            //Pieces.Add(new ChessPiece() { Row = 4, Column = 4, Type = ChessPieceTypes.Tower, IsBlack = true });
+            //Pieces.Where((x => x.Row == 2)); TESTIGN
         }
 
-        public void OnClick()
+        
+
+        private void OnClick(object sender, EventArgs e)
         {
             Pieces.Add(new ChessPiece() { Row = 3, Column = 4, Type = ChessPieceTypes.King, IsBlack = false });
         }
@@ -84,21 +84,46 @@ namespace CHESSMISC
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-             Pieces.Add(new ChessPiece() { Row = 3, Column = 4, Type = ChessPieceTypes.King, IsBlack = false });
+           Pieces.Add(new ChessPiece() { Row = 3, Column = 4, Type = ChessPieceTypes.King, IsBlack = false });
 
         }
 
+        //private void CreateBoard()
+       // {
+         //   for (var row = 0; row < 8; row++)
+        //    {
+             //   var isBlack = row % 2 == 1;
+              //  for (int col = 0; col < 8; col++)
+              //  {
+                //    var button = new Button();
+                //    button.Click += OnClick;
+                //    var square = new Rectangle { Fill = isBlack ? Brushes.Black : Brushes.White };
+                //    button.Content = square;
+                //    SquareGrid.Children.Add(button);
+               //     isBlack = !isBlack;
+
+                //}
+            //}
+
+        //}
 
 
-        public void FindPiece(int row, int col)
+
+        public int FindPiece(int row, int col)
         {
             for (int i = 0; i < Pieces.Count; i++)
             {
                 if (row == Pieces.ElementAt(i).Row && col == Pieces.ElementAt(i).Column)
                 {
-                    //do something
+                    return i;
                 }
             }
+            return -1;
+        }
+
+        private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            Pieces.ElementAt(FindPiece(0, 0)).Row = 5;
         }
     }
 }

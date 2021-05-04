@@ -9,19 +9,23 @@
 
     <Window.Resources>
         <DataTemplate DataType="{x:Type local:ChessPiece}">
-            <Image Source="{Binding ImageSource}" MouseLeftButtonDown="Button_Click" />
+            <Image Source="{Binding ImageSource}" MouseLeftButtonDown="Image_MouseLeftButtonDown" />
         </DataTemplate>
     </Window.Resources>
 
     <Grid>
-        <UniformGrid Rows="8" Columns="8" Opacity=".5">
+        <UniformGrid Rows="8" Columns="8" Opacity=".5" DataContext="MainWindow">
             <Rectangle Fill="White">
                 <Rectangle.InputBindings>
                     <MouseBinding Gesture="LeftClick" Command="{Binding OnClick}"></MouseBinding>
                 </Rectangle.InputBindings>
             </Rectangle>
             <Rectangle Fill="Black" />
-            <Rectangle Fill="White"/>
+            <Rectangle Fill="White">
+                <Rectangle.InputBindings>
+                    <MouseBinding Gesture="LeftClick" Command="{Binding OnClick}"></MouseBinding>
+                </Rectangle.InputBindings>
+            </Rectangle>
             <Rectangle Fill="Black"/>
             <Rectangle Fill="White"/>
             <Rectangle Fill="Black"/>
@@ -72,7 +76,11 @@
             <Rectangle Fill="Black"/>
 
             <Rectangle Fill="Black"/>
-            <Rectangle Fill="White"/>
+            <Rectangle Fill="White">
+                <Rectangle.InputBindings>
+                    <MouseBinding Gesture="LeftClick" Command="{Binding OnClick}"></MouseBinding>
+                </Rectangle.InputBindings>
+            </Rectangle>
             <Rectangle Fill="Black"/>
             <Rectangle Fill="White"/>
             <Rectangle Fill="Black"/>
